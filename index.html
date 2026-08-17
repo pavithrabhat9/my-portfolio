@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pavithra Bhat – Full-stack Software Engineer specializing in AI-powered, real-time communication applications. Building intelligent, scalable, and real-time apps across web and mobile." />
+  <meta name="keywords" content="Pavithra Bhat, Full-Stack Developer, Software Engineer, AI, React, Next.js, Node.js, Portfolio" />
+  <meta name="author" content="Pavithra Bhat" />
+  <meta name="theme-color" content="#040810" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pavithra Bhat | Full-Stack Software Engineer" />
+  <meta property="og:description" content="Building intelligent, scalable, and real-time applications across web and mobile." />
+  <meta property="og:type" content="website" />
+
+  <title>Pavithra Bhat | Full-Stack Software Engineer</title>
+
+  <!-- Favicon (inline SVG as data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">PB.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero section" id="home">
+    <!-- Background elements -->
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-orb hero-orb--3"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+
+        <h1 class="hero-name">
+          Hi, I'm <span class="gradient-text">Pavithra Bhat</span>
+        </h1>
+        <p class="hero-title">Full-Stack Software Engineer · AI & Real-time Communication</p>
+        <p class="hero-description">
+          Building intelligent, scalable, and real-time applications across web and mobile. 
+          Passionate about clean code, performant architecture, and shipping features that work in production.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary" id="btn-view-work">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary" id="btn-get-in-touch">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Get in Touch
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/pavithrabhat09" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn" id="social-linkedin">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/pavithrabhat9" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub" id="social-github">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+          <a href="mailto:pavithrabhat39@gmail.com" class="social-link" aria-label="Email" id="social-email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="profile-frame" style="position: relative;">
+          <div class="profile-ring"></div>
+          <img src="assets/profile.jpg" alt="Pavithra Bhat – Full-Stack Software Engineer" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Engineer. Builder. Problem Solver.</h2>
+        <p class="section-subtitle">Crafting intelligent digital experiences with clean code and modern tools.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Bio + Stats -->
+        <div class="about-text reveal">
+          <p>
+            I'm a Full-stack Software Engineer with hands-on experience building 
+            <strong style="color: var(--accent-4)">AI-powered, real-time communication applications</strong> 
+            using React, Next.js, React Native, and Node.js, along with real-time voice pipelines 
+            (STT, TTS, LiveKit, Plivo).
+          </p>
+          <p>
+            I also built and shipped production Android applications during an internship. 
+            My focus is on writing clean, performant code and shipping features that work in production — 
+            whether it's integrating LLMs with telephony infrastructure or architecting scalable mobile apps.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card glass-card reveal reveal-delay-1">
+              <div class="stat-number">2+</div>
+              <div class="stat-label">Years Coding</div>
+            </div>
+            <div class="stat-card glass-card reveal reveal-delay-2">
+              <div class="stat-number">5+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card glass-card reveal reveal-delay-3">
+              <div class="stat-number">9.0</div>
+              <div class="stat-label">MCA CGPA</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Skills -->
+        <div class="skills-grid reveal">
+          <!-- Languages -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              Languages
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">SQL</span>
+            </div>
+          </div>
+
+          <!-- Frontend & Mobile -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              Frontend & Mobile
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">Next.js</span>
+              <span class="skill-tag">React Native</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Tailwind CSS</span>
+            </div>
+          </div>
+
+          <!-- Backend & Database -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              Backend & Database
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Supabase</span>
+              <span class="skill-tag">Neon DB</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <!-- AI & Real-time Voice -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+              AI & Real-time Voice
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">LLM API Integration</span>
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">LiveKit</span>
+              <span class="skill-tag">Plivo</span>
+              <span class="skill-tag">STT/TTS</span>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category glass-card">
+            <div class="skill-category-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              Tools & Platforms
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE SECTION ========== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">Where I've Worked</h2>
+        <p class="section-subtitle">My professional journey in software engineering so far.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Software Engineer</h3>
+                <p class="timeline-company">Trikon.Tech, Mangaluru</p>
+              </div>
+              <span class="timeline-date">June 2026 – Present</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Full-stack development on AI-powered, real-time communication applications across web and mobile — using React, Next.js, React Native, and Node.js.</li>
+              <li>Built and integrated real-time voice AI pipelines, connecting speech-to-text (STT) and text-to-speech (TTS) with telephony infrastructure (Plivo, LiveKit) for natural, low-latency conversations.</li>
+              <li>Improved latency in real-time voice interactions and collaborated in an agile team — raising and reviewing pull/merge requests, debugging, and fixing issues across the stack.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Software Development Intern</h3>
+                <p class="timeline-company">Design Webtech Pvt Ltd, Bengaluru</p>
+              </div>
+              <span class="timeline-date">June 2025 – Nov 2025</span>
+            </div>
+            <ul class="timeline-points">
+              <li>Built and shipped 2 production-level Android applications, working across UI, API integration, and local data persistence (Retrofit, Room Database, Material Design).</li>
+              <li>Architected scalable MVVM + Clean Architecture with Coroutines, LiveData, and Navigation components; delivered offline-first functionality with structured API error handling.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">A selection of things I've built and am building.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Smart Garbage Collection -->
+        <div class="project-card glass-card reveal reveal-delay-1">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <span class="project-status in-progress"><span class="dot"></span>In Progress</span>
+          <h3 class="project-name">Smart Garbage Collection System</h3>
+          <p class="project-desc">
+            Building a full-stack web app for real-time garbage collection route tracking using Maps API integration, 
+            with a RESTful Node.js backend handling location data and collection scheduling.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Maps API</span>
+            <span class="tech-tag">Supabase</span>
+          </div>
+        </div>
+
+        <!-- Project 2: KB-Chatbot -->
+        <div class="project-card glass-card reveal reveal-delay-2">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <span class="project-status"><span class="dot"></span>Completed</span>
+          <h3 class="project-name">KB-Chatbot – AI Knowledge Base</h3>
+          <p class="project-desc">
+            Built and deployed a full-stack AI chatbot answering queries via LLM integration, 
+            with Firebase Authentication and Firestore for real-time data handling.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">React.js</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Groq API</span>
+            <span class="tech-tag">LLM</span>
+          </div>
+        </div>
+
+        <!-- Project 3: StreeRaksha -->
+        <div class="project-card glass-card reveal reveal-delay-3">
+          <div class="project-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <span class="project-status"><span class="dot"></span>Completed</span>
+          <h3 class="project-name">StreeRaksha – Women's Safety App</h3>
+          <p class="project-desc">
+            Built a mobile safety app with SOS emergency alerts, real-time location sharing, 
+            a siren/deterrent trigger, and emergency contact management — with secure authentication 
+            and real-time data storage.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Mobile App</span>
+            <span class="tech-tag">Real-time</span>
+            <span class="tech-tag">Location</span>
+            <span class="tech-tag">Auth</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION SECTION ========== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+        <p class="section-subtitle">My educational journey and certifications.</p>
+      </div>
+
+      <div class="education-grid">
+        <!-- MCA -->
+        <div class="edu-card glass-card reveal reveal-delay-1">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+          </div>
+          <h3 class="edu-degree">Master of Computer Applications (MCA)</h3>
+          <p class="edu-school">Canara College, Mangaluru</p>
+          <p class="edu-year">2024 – 2025</p>
+          <div class="edu-gpa">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            CGPA: 9.0
+          </div>
+        </div>
+
+        <!-- BCA -->
+        <div class="edu-card glass-card reveal reveal-delay-2">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+          </div>
+          <h3 class="edu-degree">Bachelor of Computer Applications (BCA)</h3>
+          <p class="edu-school">Canara College, Mangaluru</p>
+          <p class="edu-year">2020 – 2023</p>
+          <div class="edu-gpa">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            CGPA: 8.87
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="reveal">
+        <h3 class="certifications-title">Certifications</h3>
+        <div class="certs-grid">
+          <div class="cert-badge glass-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            ReactJS – Simplilearn
+          </div>
+          <div class="cert-badge glass-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            Web App Dev in ReactJS – Codelab Systems
+          </div>
+          <div class="cert-badge glass-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+            Claude Code in Action – Anthropic
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Contact Info -->
+        <div class="contact-info-card glass-card reveal">
+          <h3 class="contact-info-title">Get in Touch</h3>
+          <p class="contact-info-desc">
+            Feel free to reach out for collaborations, opportunities, or just a friendly conversation 
+            about tech and building things.
+          </p>
+          <div class="contact-details">
+            <a href="mailto:pavithrabhat39@gmail.com" class="contact-item" id="contact-email">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">pavithrabhat39@gmail.com</div>
+              </div>
+            </a>
+            <a href="tel:+919606327914" class="contact-item" id="contact-phone">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">Phone</div>
+                <div class="contact-item-value">+91-9606327914</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/pavithrabhat09" target="_blank" rel="noopener noreferrer" class="contact-item" id="contact-linkedin">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">LinkedIn</div>
+                <div class="contact-item-value">linkedin.com/in/pavithrabhat09</div>
+              </div>
+            </a>
+            <a href="https://github.com/pavithrabhat9" target="_blank" rel="noopener noreferrer" class="contact-item" id="contact-github">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </div>
+              <div>
+                <div class="contact-item-label">GitHub</div>
+                <div class="contact-item-value">github.com/pavithrabhat9</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-card glass-card reveal">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="form-name" class="form-label">Your Name</label>
+              <input type="text" id="form-name" class="form-input" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="form-email" class="form-label">Your Email</label>
+              <input type="email" id="form-email" class="form-input" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="form-subject" class="form-label">Subject</label>
+              <input type="text" id="form-subject" class="form-input" placeholder="Let's collaborate!" />
+            </div>
+            <div class="form-group">
+              <label for="form-message" class="form-label">Message</label>
+              <textarea id="form-message" class="form-textarea" placeholder="Tell me about your project or just say hi..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="btn-send-message">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">© 2026 Pavithra Bhat. Built with passion and clean code.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/pavithrabhat09" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/pavithrabhat9" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:pavithrabhat39@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
