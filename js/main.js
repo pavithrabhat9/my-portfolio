@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           Message Sent!
         `;
-        submitBtn.style.background = 'linear-gradient(135deg, #0d9488, #10b981)';
+        submitBtn.style.background = 'linear-gradient(135deg, #c48a20, #e8a838)';
 
         // Reset after 3 seconds
         setTimeout(() => {
