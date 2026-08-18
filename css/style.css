@@ -1237,6 +1237,11 @@ body::before {
     text-align: center;
   }
 
+  .hero-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero-description {
     margin-left: auto;
     margin-right: auto;
@@ -1330,6 +1335,11 @@ body::before {
 @media (max-width: 480px) {
   .container {
     padding: 0 16px;
+  }
+
+  .hero-title {
+    font-size: 0.95rem;
+    white-space: normal;
   }
 
   .hero-actions {
