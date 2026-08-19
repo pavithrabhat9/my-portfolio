@@ -114,11 +114,22 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
       submitBtn.disabled = true;
 
-      // Simulate form submission (replace with actual API endpoint)
+      // Capture form data
+      const name = document.getElementById('form-name').value;
+      const email = document.getElementById('form-email').value;
+      const subject = document.getElementById('form-subject').value || 'Portfolio Contact';
+      const message = document.getElementById('form-message').value;
+
+      const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+      const mailtoLink = `mailto:pavithrabhat39@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+      // Brief delay to show "Sending..." animation
       setTimeout(() => {
+        window.location.href = mailtoLink;
+        
         submitBtn.innerHTML = `
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-          Message Sent!
+          Mail Client Opened!
         `;
         submitBtn.style.background = 'linear-gradient(135deg, #a638ff, #ff6675)';
 
@@ -129,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
           submitBtn.disabled = false;
           contactForm.reset();
         }, 3000);
-      }, 1500);
+      }, 600);
     });
   }
 
