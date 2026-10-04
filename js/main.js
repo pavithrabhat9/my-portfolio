@@ -1,4 +1,4 @@
-/* ============================================
+﻿/* ============================================
    Pavithra Bhat – Portfolio JavaScript
    Handles: navigation, scroll animations,
    form interaction, and micro-interactions
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
           Mail Client Opened!
         `;
-        submitBtn.style.background = 'linear-gradient(135deg, #a638ff, #ff6675)';
+        submitBtn.style.background = 'linear-gradient(135deg, #06747C, #0FB5BA)';
 
         // Reset after 3 seconds
         setTimeout(() => {
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const skillTags = document.querySelectorAll('.skill-tag');
   skillTags.forEach(tag => {
     tag.addEventListener('mouseenter', () => {
-      tag.style.boxShadow = '0 0 15px rgba(166, 56, 255, 0.25)';
+      tag.style.boxShadow = '0 0 15px rgba(6, 116, 124, 0.25)';
     });
     tag.addEventListener('mouseleave', () => {
       tag.style.boxShadow = '';
